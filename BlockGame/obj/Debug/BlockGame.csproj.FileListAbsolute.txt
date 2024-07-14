@@ -1,0 +1,15 @@
+C:\Users\uwu\source\repos\BlockGame\BlockGame\bin\Debug\BlockGame.exe.config
+C:\Users\uwu\source\repos\BlockGame\BlockGame\bin\Debug\BlockGame.exe
+C:\Users\uwu\source\repos\BlockGame\BlockGame\bin\Debug\BlockGame.pdb
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.csproj.AssemblyReference.cache
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\MainWindow.g.cs
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\App.g.cs
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame_MarkupCompile.cache
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame_MarkupCompile.lref
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\MainWindow.baml
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.g.resources
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.Properties.Resources.resources
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.csproj.GenerateResource.cache
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.csproj.CoreCompileInputs.cache
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.exe
+C:\Users\uwu\source\repos\BlockGame\BlockGame\obj\Debug\BlockGame.pdb
