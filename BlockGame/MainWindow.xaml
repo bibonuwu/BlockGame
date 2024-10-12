@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlockGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="400" WindowStartupLocation="CenterScreen">
+        Title="NurAi" Height="300" Width="400" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
-            by bibon
+            by NurAi
         </Label>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label HorizontalAlignment="Center" FontSize="20">
-                Block Games
+                Block Sites Games
             </Label>
             <Button Width="300" Height="50" Margin="0,0,0,10" Content="Blocking" FontSize="16" FontWeight="Bold" Background="#FF41F04B" Click="Button_Click">
 
