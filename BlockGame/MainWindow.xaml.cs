@@ -536,6 +536,24 @@ namespace BlockGame
 0.0.0.0 www.rvpkofficial.wixsite.com
 0.0.0.0 yandex.kz
 0.0.0.0 www.yandex.kz
+0.0.0.0 crazygames.com.ua
+0.0.0.0 www.crazygames.com.ua
+0.0.0.0 igru.com.ua
+0.0.0.0 www.igru.com.ua
+0.0.0.0 vseigru.fun
+0.0.0.0 www.vseigru.fun
+0.0.0.0 minigames.com
+0.0.0.0 www.minigames.com
+0.0.0.0 vseigru.su
+0.0.0.0 www.vseigru.su
+0.0.0.0 
+0.0.0.0 www.
+0.0.0.0 
+0.0.0.0 www.
+0.0.0.0 
+0.0.0.0 www.
+0.0.0.0 
+0.0.0.0 www.
 0.0.0.0 
 0.0.0.0 www.
 0.0.0.0 
