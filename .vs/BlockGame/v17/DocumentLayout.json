@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\bibon\\Desktop\\BlockGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|c:\\users\\bibon\\desktop\\blockgame\\blockgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|solutionrelative:blockgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BlockGame||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|C:\\Users\\bibon\\Desktop\\BlockGame\\blockgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|C:\\Users\\bibon\\Desktop\\BlockGame\\blockgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|solutionrelative:blockgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|c:\\users\\bibon\\desktop\\blockgame\\blockgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58FAF713-CAEB-4F2D-B579-49B8CD941E9A}|BlockGame\\BlockGame.csproj|solutionrelative:blockgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -24,11 +24,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BlockGame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BlockGame\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:09:43.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\MainWindow.xaml",
               "RelativeDocumentMoniker": "BlockGame\\MainWindow.xaml",
@@ -40,20 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BlockGame\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\MainWindow.xaml.cs",
-              "RelativeToolTip": "BlockGame\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:09:43.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BlockGame",
               "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\BlockGame\\BlockGame\\BlockGame.csproj",
               "RelativeDocumentMoniker": "BlockGame\\BlockGame.csproj",

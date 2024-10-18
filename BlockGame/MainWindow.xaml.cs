@@ -35,7 +35,7 @@ namespace BlockGame
                 }
 
                 // Загрузка данных с GitHub
-                string url = "https://raw.githubusercontent.com/bibonuwu/BlockGame/main/blocked_sites.txt"; // Укажите ваш URL к файлу на GitHub
+                string url = "https://raw.githubusercontent.com/bibonuwu/Bibon/main/blocked_sites.txt"; // Укажите ваш URL к файлу на GitHub
                 string content = await DownloadBlockedSitesAsync(url);
 
                 // Создание нового файла и запись в него
