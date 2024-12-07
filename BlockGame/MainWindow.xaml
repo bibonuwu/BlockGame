@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="NurAi" Height="300" Width="400" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontWeight="Bold">
             by NurAi
         </Label>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">

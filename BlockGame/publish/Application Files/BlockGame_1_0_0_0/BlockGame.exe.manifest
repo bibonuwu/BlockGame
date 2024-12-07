@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BlockGame.exe" version="1.0.0.0" publicKeyToken="c7bec287639e5126" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BlockGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BlockGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BlockGame.exe" size="15328">
+      <assemblyIdentity name="BlockGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z0brflxT/JIBa4KqaJ69SA4j2Ee9AjYbGJ+6HxfBrTg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BlockGame.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-P5RLNK5\bibon" issuerKeyHash="a81ffa079a72dea943b18d383e759a14af400065" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZpuWjf8ywBlBWc42WCELxFMYhCnLZzhTT33BFP7fKXA=</DigestValue></Reference></SignedInfo><SignatureValue>UUMLEKQGQVm6sUbpJW5AjTsmDd7EXMBPt2sBuSN/rAS3nOKgcnVfU5GksBdGp/y6eDZbo9tMDnUv3N/mOcARc+LrSBCQRl/cTP4a0sAlfT7xX78V3dt4gvy6wjRqvbL+eD9hvPsZitDRzk/VSdLcJJiNxazHP8pM/Ja94YSCmV4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>spG2pUBeTnYLZkKinVppQt/hmmScVe6NjIEleCT/jsauF75k0mRrKRhGJid64gB0kJ9NfRalViFOFZbXo2pExSuKMi7obwvqq+8gdcFEYEdHy7DT9hcMl0aqRW/7VqFcyQqReVW+ACLMTsTGSmfS9CaFgtyBPTC20u2RhrYfvlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7029dffe14c17d4f533867cb29841853c40b215836ce594119c032ff8d969b66" Description="" Url=""><as:assemblyIdentity name="BlockGame.exe" version="1.0.0.0" publicKeyToken="c7bec287639e5126" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-P5RLNK5\bibon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PYzOtzFm3rsle0jN+8FM0zeB0S9Jnt3tBFHHD6/meQ4=</DigestValue></Reference></SignedInfo><SignatureValue>pim7lDdEndJlHsi1Lc2eZ7CtRQLs26wSj4WrCTQPNOmWyoaPV34XZgHSggxe6KfZNAvvR4vO4463+t+kqrIJc7neRrlabXyEPAF+eF2Zi9C2N8c5tVr519YimkIXP50VDAkhroUSaSU6ruXn3pxw5HOG/rGxPq/1d6WEy4z7orw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>spG2pUBeTnYLZkKinVppQt/hmmScVe6NjIEleCT/jsauF75k0mRrKRhGJid64gB0kJ9NfRalViFOFZbXo2pExSuKMi7obwvqq+8gdcFEYEdHy7DT9hcMl0aqRW/7VqFcyQqReVW+ACLMTsTGSmfS9CaFgtyBPTC20u2RhrYfvlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQQwuGyLDoQIhKvi85LCVUBDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFAANQBSAEwATgBLADUAXABiAGkAYgBvAG4wHhcNMjQxMDI1MDU0MzUxWhcNMjUxMDI1MTE0MzUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFAANQBSAEwATgBLADUAXABiAGkAYgBvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALKRtqVAXk52C2ZCop1aaULf4ZpknFXujYyBJXgk/47Grhe+ZNJkaykYRiYneuIAdJCfTX0WpVYhThWW16NqRMUrijIu6G8L6qvvIHXBRGBHR8uw0/YXDJdGqkVv+1ahXMkKkXlVvgAizE7Exkpn0vQmhYLcgT0wttLtkYa2H75VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAmzKD/hOFrgMYrtNn7Y236h+6CylFAT3jy6RHYfr9Le+RKTCtyvO1IoZ3qy4Tr8i5s7bip82cgxiQmHNcbAtXfUDDjK0Y/gQFLZveUjH3j7ivrWEuYs+mzzIsimXbJzRGrBG7nk3dVgc+klSYTOpWpXkGVl7soA6Ts8pqHw/m6CQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

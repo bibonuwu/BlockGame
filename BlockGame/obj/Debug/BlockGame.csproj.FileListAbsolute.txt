@@ -28,3 +28,7 @@ C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.csproj.GenerateRe
 C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.csproj.CoreCompileInputs.cache
 C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.exe
 C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.pdb
+C:\Users\bibon\Desktop\BlockGame\BlockGame\bin\Debug\BlockGame.exe.manifest
+C:\Users\bibon\Desktop\BlockGame\BlockGame\bin\Debug\BlockGame.application
+C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.exe.manifest
+C:\Users\bibon\Desktop\BlockGame\BlockGame\obj\Debug\BlockGame.application

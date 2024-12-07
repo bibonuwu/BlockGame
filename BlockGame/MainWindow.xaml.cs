@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 
 namespace BlockGame
 {
@@ -16,8 +17,17 @@ namespace BlockGame
 
         }
 
+
+        //кнопка блок сайта start
+
+
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Создаем кисти для изменения цвета кнопки и прогресс бара
+            var yellowBrush = (Brush)new BrushConverter().ConvertFromString("#FFD60A");
+            var greenBrush = (Brush)new BrushConverter().ConvertFromString("#32D74B");
+            var redBrush = (Brush)new BrushConverter().ConvertFromString("#FF453A");
+
             try
             {
                 if (!IsAdministrator())
@@ -44,14 +54,11 @@ namespace BlockGame
                 // Очистка DNS-кэша
                 FlushDNS();
 
-                MessageBox.Show("Файл успешно обновлен и DNS-кэш очищен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при записи в файл: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-        // Функция для загрузки данных с GitHub
         private async Task<string> DownloadBlockedSitesAsync(string url)
         {
             using (HttpClient client = new HttpClient())
@@ -72,6 +79,11 @@ namespace BlockGame
         }
         private void FlushDNS()
         {
+            // Создаем кисти для изменения цвета кнопки и прогресс бара
+            var yellowBrush = (Brush)new BrushConverter().ConvertFromString("#FFD60A");
+            var greenBrush = (Brush)new BrushConverter().ConvertFromString("#32D74B");
+            var redBrush = (Brush)new BrushConverter().ConvertFromString("#FF453A");
+
             try
             {
                 var processInfo = new ProcessStartInfo
@@ -86,11 +98,9 @@ namespace BlockGame
                 var process = Process.Start(processInfo);
                 process.WaitForExit();
 
-                MessageBox.Show("DNS-кэш успешно очищен.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при очистке DNS-кэша: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -123,6 +133,8 @@ namespace BlockGame
 
         private void DeleteHostsFile(object sender, RoutedEventArgs e)
         {
+         
+
             string hostsPath = @"C:\Windows\system32\drivers\etc\hosts";
 
             if (!IsAdministrator())
@@ -140,7 +152,6 @@ namespace BlockGame
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка: {ex.Message}");
                 }
                 Application.Current.Shutdown();
                 return;
@@ -151,17 +162,17 @@ namespace BlockGame
                 if (File.Exists(hostsPath))
                 {
                     File.Delete(hostsPath);
-                    MessageBox.Show("Файл hosts успешно удален.");
                 }
                 else
                 {
-                    MessageBox.Show("Файл hosts не найден.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при удалении файла: {ex.Message}");
             }
         }
+
+        //кнопка блок сайта end
+
     }
 }
